@@ -14,7 +14,6 @@ if ((Number(strnum[0]) + Number(strnum[1]) + Number(strnum[2])) == (Number(strnu
 
 for (let n = 1000, num = 1; n > 50; num++) {
 n /= 2;
-console.log(n, num)
 }
 
 // 3. Дан массив arr. Найдите среднее арифметическое его элементов. 
@@ -28,13 +27,11 @@ let Average = (num) => {
   return sum / num.length;
 };
 let arr = [12, 15, 20, 25, 59, 79];
-console.log(Average(arr));
 
 // 4. Дан массив [1, 2, 3, 4, 5]. Cделайте из него массив [1, 2, 3, 'a', 'b', 'c', 4, 5].
 
 let arr1 = [1, 2, 3, 4, 5];
 arr1.splice(3, 0, 'a', 'b', 'c');
-console.log(arr1);
 
 // 5. Дан массив [1, 2, 3, 4, 5]. Cделайте из него массив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
 
@@ -42,10 +39,8 @@ let arr2 = [1, 2, 3, 4, 5];
 arr2.splice(1, 0, 'a', 'b');
 arr2.splice(6, 0, 'c');
 arr2.splice(8, 0, 'e');
-console.log(arr2);
 
 // 6. Дан массив [3, 4, 1, 2, 7]. Отсортируйте его.
 
 let arr3 = [3, 4, 1, 2, 7];
 arr3.sort((a, b) => (b - a));
-console.log(arr3);
