@@ -2,7 +2,7 @@
   "name": "it-academy",
   "version": "1.0.0",
   "description": "",
-  "main": "node.js",
+  "main": "test.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NastassiaHaladushka/IT-academy.git"
