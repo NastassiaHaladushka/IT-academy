@@ -26,5 +26,5 @@ describe('Checking the web site webdriver.io', () => {
     console.log(await browser.getUrl());
 
   });
-  
+
 });
