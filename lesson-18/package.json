@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/NastassiaHaladushka/IT-academy#readme",
   "dependencies": {
+    "eslint": "^8.36.0",
     "fs-extra": "^11.1.0"
   },
   "devDependencies": {
