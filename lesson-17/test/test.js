@@ -35,7 +35,7 @@ describe('WebDriver test', function () {
         const menuSearch = await driver.findElements(By.xpath('//*[@aria-label="Открыть поле поиска"]'));
         await menuSearch[0].click();
         const search = await driver.findElement(By.xpath('//*[@aria-label="Поиск по сайту"]'));
-        await search.sendKeys("driver")
+        await search.sendKeys("driver");
         await driver.actions().sendKeys(Key.ENTER).perform();
         const linksDriver = await driver.findElements(By.xpath('//*[@jscontroller="U720xd"]/div[1]'));
         expect(await linksDriver[0].getText()).to.contain('driver');
@@ -47,9 +47,9 @@ describe('WebDriver test', function () {
         const menuDop = await driver.findElements(By.xpath('//li[@class="VsJjtf oXBWEc"]'));
         await menuDop[0].click();
         const menuMobile = await driver.findElements(By.xpath('//ul[@class="VcS63b"]//li[10]'));
-        await menuMobile.click();
+        await menuMobile[0].click();
         const urlMobile = await driver.getCurrentUrl();
-        expect(urlMobile).to.contain("/mobile-emulation");
+        expect(urlMobile).to.contain('/mobile-emulation');
         
     });
 
