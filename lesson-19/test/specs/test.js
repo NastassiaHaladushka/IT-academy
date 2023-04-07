@@ -24,7 +24,6 @@ describe('Checking the web site webdriver.io', () => {
     await $('//*[@class="navbar__brand"]').click();
     await $('.navbar__item.navbar__link.header-github-link').click();
     console.log(await browser.getUrl());
-
   });
 
 });
