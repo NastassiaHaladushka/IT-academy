@@ -1,0 +1,38 @@
+{
+  "name": "it-academy",
+  "version": "1.0.0",
+  "main": "test.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NastassiaHaladushka/IT-academy.git"
+  },
+  "author": "Nastassia Haladushka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NastassiaHaladushka/IT-academy/issues"
+  },
+  "homepage": "https://github.com/NastassiaHaladushka/IT-academy#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "@wdio/cli": "^8.7.0",
+    "@wdio/local-runner": "^8.7.0",
+    "@wdio/mocha-framework": "^8.7.0",
+    "@wdio/spec-reporter": "^8.7.0",
+    "chromedriver": "^111.0.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-react": "^7.32.2",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
